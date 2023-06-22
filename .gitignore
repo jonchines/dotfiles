@@ -1,1 +1,9 @@
 git/.gitconfig
+
+apps/.vscode-oss/*
+!apps/.vscode-oss/settings.json
+!apps/.vscode-oss/tasks.json
+!apps/.vscode-oss/launch.json
+!apps/.vscode-oss/extensions.json
+!apps/.vscode-oss/*.code-snippets
+
