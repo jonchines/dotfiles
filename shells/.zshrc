@@ -28,6 +28,7 @@ source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 ## Removing because I think these are related to a non-existant Oh-My-Zsh config
 # source ~/.zsh/keybindings
 # source ~/.zsh/keyhistory
+source ~/.zsh/magic_enter/magic_enter.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
