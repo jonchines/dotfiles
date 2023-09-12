@@ -116,6 +116,11 @@ return packer.startup(function(use)
 	use("tpope/vim-fugitive")
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
+	-- DB integration
+	use("tpope/vim-dadbod")
+	use("kristijanhusak/vim-dadbod-ui")
+	use("kristijanhusak/vim-dadbod-completion")
+
 	-- which-key
 	use("folke/which-key.nvim")
 
