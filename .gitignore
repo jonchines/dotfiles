@@ -1,7 +1,5 @@
 git/.gitconfig
 
-git/.gitconfig
-
 apps/.config/obsidian/*
 !apps/.config/obsidian/Preferences
 !apps/.config/obsidian/Customi\ Dictionary.txt
