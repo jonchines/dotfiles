@@ -2,7 +2,8 @@ git/.gitconfig
 
 apps/.config/obsidian/*
 !apps/.config/obsidian/Preferences
-!apps/.config/obsidian/Customi\ Dictionary.txt
+!apps/.config/obsidian/Custom\ Dictionary.txt
+!apps/.config/obsidian/"Custom Dictionary.txt"
 
 apps/.vscode-oss/*
 !apps/.vscode-oss/settings.json
