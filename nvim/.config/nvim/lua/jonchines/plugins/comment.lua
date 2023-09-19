@@ -5,11 +5,4 @@ if not setup then
 end
 
 -- enable comment
-comment.setup({
-	opleader = {
-		---Line-comment keymap
-		line = "gh",
-		---Block-comment keymap
-		block = "gb",
-	},
-})
+comment.setup()
