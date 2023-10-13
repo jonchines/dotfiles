@@ -49,7 +49,6 @@ end
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
 -- Change the Diagnostic symbols in the sign column (gutter)
--- (not in youtube nvim video)
 local signs = { Error = " ", Warn = " ", Hint = "ﴞ ", Info = " " }
 for type, icon in pairs(signs) do
 	local hl = "DiagnosticSign" .. type
@@ -120,6 +119,7 @@ lspconfig["lua_ls"].setup({
 lspconfig["terraformls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
+	filetypes = { "terraform" },
 })
 
 -- configure tflint server
