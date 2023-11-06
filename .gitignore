@@ -12,6 +12,6 @@ apps/.vscode-oss/*
 !apps/.vscode-oss/extensions.json
 !apps/.vscode-oss/*.code-snippets
 
-nvim/.config/nvim/plugins
-nvim/.config/nvim/plugins/packer_compiled.lua
+nvim/.config/nvim/plugin
+nvim/.config/nvim/plugin/packer_compiled.lua
 
