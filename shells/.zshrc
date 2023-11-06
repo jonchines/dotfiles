@@ -38,7 +38,7 @@ alias vi=nvim
 alias ssh="TERM=xterm-256color ssh"
 
 # Path management
-export PATH=$PATH:~/.local/bin:~/.local/share/gem/ruby/3.0.0/bin
+export PATH=$PATH:~/.local/bin:~/.local/share/bob/nvim-bin:~/.local/share/gem/ruby/3.0.0/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
