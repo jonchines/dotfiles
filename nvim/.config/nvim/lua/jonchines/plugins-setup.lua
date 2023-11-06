@@ -113,7 +113,9 @@ return packer.startup(function(use)
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
 
 	-- git integration
-	use("tpope/vim-fugitive")
+	-- use("tpope/vim-fugitive")
+	-- Switch to using Lua version of Vim-Fugitive
+	use("dinhhuy258/git.nvim")
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
 	-- DB integration
