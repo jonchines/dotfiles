@@ -23,8 +23,8 @@ compinit
 source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme
 fpath=(~/.zsh/zsh-completions/src $fpath)
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+#source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 ## Removing because I think these are related to a non-existant Oh-My-Zsh config
 # source ~/.zsh/keybindings
 # source ~/.zsh/keyhistory
