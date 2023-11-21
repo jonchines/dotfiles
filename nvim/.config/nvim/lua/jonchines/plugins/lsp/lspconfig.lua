@@ -119,7 +119,7 @@ lspconfig["lua_ls"].setup({
 lspconfig["terraformls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
-	filetypes = { "terraform" },
+	-- filetypes = { "terraform" },
 })
 
 -- configure tflint server
