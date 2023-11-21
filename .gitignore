@@ -15,3 +15,7 @@ apps/.vscode-oss/*
 nvim/.config/nvim/plugin
 nvim/.config/nvim/plugin/packer_compiled.lua
 
+shells/.zsh/fast-syntax-highlighting
+shells/.zsh/powerlevel10k
+shells/.zsh/zsh-autosuggestions
+shells/.zsh/zsh-completions
