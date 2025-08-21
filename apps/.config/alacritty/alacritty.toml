@@ -83,18 +83,8 @@ color = "#3ddbd9"
 index = 17
 color = "#ff7eb6"
 
-[font.bold]
-family = "Source Code Pro"
-style = "Bold"
-
-[font.bold_italic]
-family = "Source Code Pro"
-style = "Bold Italic"
-
-[font.italic]
-family = "Source Code Pro"
-style = "Italic"
-
-[font.normal]
-family = "Source Code Pro"
-style = "Regular"
+[font]
+normal = { family = "MonaspiceNe NF", style = "Regular" }
+italic = { family = "MonaspiceRa NF", style = "Regular"}
+bold = { family = "MonaspiceNe NF", style = "Bold"}
+bold_italic = { family = "MonaspiceRa NF", style = "Bold" }
