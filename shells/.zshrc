@@ -40,7 +40,8 @@ alias ssh="TERM=xterm-256color ssh"
 # Path management
 export PATH=$PATH:~/.local/bin:~/.local/share/bob/nvim-bin:~/.local/share/gem/ruby/3.0.0/bin
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
